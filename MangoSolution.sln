@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{6AE3BDF6-9EE3-405E-B644-FE55F0404415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoApp", "MangoApp\MangoApp.csproj", "{E0CEFDD4-573E-4854-8D42-786C7A237A42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C30FDC67-4060-41E2-8D71-D42E6759C976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{9F2AFCB3-0453-4B54-B8B0-BAC46224C722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbContext", "DbContext", "{B1E4EEA8-A8BA-480A-B579-91C95AE7D0C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0CEFDD4-573E-4854-8D42-786C7A237A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CEFDD4-573E-4854-8D42-786C7A237A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CEFDD4-573E-4854-8D42-786C7A237A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CEFDD4-573E-4854-8D42-786C7A237A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2AFCB3-0453-4B54-B8B0-BAC46224C722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2AFCB3-0453-4B54-B8B0-BAC46224C722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2AFCB3-0453-4B54-B8B0-BAC46224C722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2AFCB3-0453-4B54-B8B0-BAC46224C722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0CEFDD4-573E-4854-8D42-786C7A237A42} = {6AE3BDF6-9EE3-405E-B644-FE55F0404415}
+		{9F2AFCB3-0453-4B54-B8B0-BAC46224C722} = {C30FDC67-4060-41E2-8D71-D42E6759C976}
+		{B1E4EEA8-A8BA-480A-B579-91C95AE7D0C9} = {C30FDC67-4060-41E2-8D71-D42E6759C976}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A53FB5F-991D-4F72-89E0-EB07FCD0F2D1}
+	EndGlobalSection
+EndGlobal
